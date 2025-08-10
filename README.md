@@ -1,21 +1,19 @@
-### Introduction to Power Query in Excel
+## Introduction
 
-**Power Query** is a powerful data transformation and connection tool in Microsoft Excel. It simplifies the process of importing, cleaning, and reshaping data, making it ready for analysis. With Power Query, you can connect to various data sources such as Excel files, databases, web pages, and more, allowing for seamless integration and automation.
+This repository contains resources, examples, and best practices for **Power Query** and **Power Pivot** — two powerful data transformation and modeling tools in Microsoft Excel.
 
-### Key Features:
-1. **Data Import**: Connect to multiple data sources and import data effortlessly.
-2. **Data Transformation**: Clean and reshape data using a user-friendly interface, without needing advanced formulas or coding.
-3. **Automation**: Automate repetitive data preparation tasks with just a few clicks.
-4. **Integration**: Use with Excel to feed cleaned data into PivotTables, charts, and other tools.
+### Power Query
+- Used for **data extraction, transformation, and loading (ETL)**.
+- Supports importing data from multiple sources (Excel, CSV, databases, web, APIs, etc.).
+- Allows **data cleaning, shaping, and automation** without manual repetition.
 
-### Benefits:
-- Save time on manual data preparation.
-- Reduce errors in your analysis.
-- Work efficiently with large datasets.
+### Power Pivot
+- Used for **data modeling and advanced calculations**.
+- Creates **relationships between tables** to build robust data models.
+- Supports **DAX (Data Analysis Expressions)** for powerful measures and calculated columns.
 
-### Real-World Examples:
-- Combine monthly sales data from multiple Excel files.
-- Remove duplicates and clean messy datasets.
-- Extract specific information from web data for reports.
-
-Power Query is ideal for data analysts, accountants, and anyone who works with large volumes of data in Excel. It's a game-changer for efficient and accurate data analysis!
+### Why Use Them Together?
+- Connect to diverse data sources.
+- Clean, transform, and prepare data efficiently.
+- Build analytical models for reporting and dashboards.
+- Enable **self-service business intelligence** in Excel.
