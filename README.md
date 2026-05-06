@@ -2,6 +2,10 @@
 
 https://forms.gle/paeV5UdeGAay8Efw9
 
+## Group telegram support
+
+https://t.me/+j3o-Hct3ae1jYTVl
+
 
 
 
