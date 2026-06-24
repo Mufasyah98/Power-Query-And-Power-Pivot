@@ -1,3 +1,22 @@
+Variance Sales :=
+VAR CY =
+    [Total Revenue]
+VAR PY =
+    CALCULATE(
+        [Total Revenue],
+        FILTER(
+            ALL('Calendar'),
+            'Calendar'[Year] = MAX('Calendar'[Year]) - 1
+                && 'Calendar'[Month No] = MAX('Calendar'[Month No])
+        )
+    )
+RETURN
+    IF(
+        ISBLANK(PY),
+        BLANK(),
+        CY - PY
+    ) i'm
+
 ## Upload your assessment here
 
 https://forms.gle/paeV5UdeGAay8Efw9
