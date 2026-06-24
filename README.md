@@ -1,5 +1,4 @@
-Variance Sales :=
-VAR CY =
+= VAR CY =
     [Total Revenue]
 VAR PY =
     CALCULATE(
@@ -15,7 +14,7 @@ RETURN
         ISBLANK(PY),
         BLANK(),
         CY - PY
-    ) i'm
+    )
 
 ## Upload your assessment here
 
