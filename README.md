@@ -6,7 +6,7 @@ VAR PY =
         FILTER(
             ALL('Calendar'),
             'Calendar'[Year] = MAX('Calendar'[Year]) - 1
-                && 'Calendar'[Month No] = MAX('Calendar'[Month No])
+                && 'Calendar'[Month Number] = MAX('Calendar'[Month Number])
         )
     )
 RETURN
